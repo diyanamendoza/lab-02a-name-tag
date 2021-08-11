@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
 .box {
     background-color: rgb(192, 192, 192);
     width: 400px;
@@ -42,7 +48,7 @@ main {
     align-items: center;
     background-color: white;
     font-family:'Yellowtail', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     height:80px;
 }
 
@@ -54,4 +60,28 @@ footer {
     height:37px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+
+.interact {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:40px;
+}
+
+#create-button {
+    background-color:black;
+    color:white;
+    border-radius:8px;
+    height: 35px;
+    width: 75px;
+    font-family:'Yellowtail', cursive;
+    font-size: 1.5em;
+
+}
+
+#userName {
+    border:rgb(192, 192, 192) 1px solid;
+    height: 35px;
+    width: 200px;
 }
